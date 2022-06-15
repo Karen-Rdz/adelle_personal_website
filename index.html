@@ -9,46 +9,56 @@
     <!-- Username: adellevo -->
 </head>
 <body>
-    <!-- Header -->
-    <div class="header"> 
-        <h1><center>My Personal Website</center></h1>
-        <h2><center>Adelle Vo</center></h2>
+    <div class="flexbox-containerh-header">
+        <!-- Header -->
+        <div class="header"> 
+            <h1><center>My Personal Website</center></h1>
+            <h2><center>Adelle Vo</center></h2>
+        </div>
     </div>
-
-    <!-- Biography -->
-    <div class="bio">
-        <img class="profileImg" src="cat profile.jpg" alt="cat">
-        <p>Adelle currrently lives in California, she is studying Software Engineer and is her first Internship at Meta!. 
-            She has a younger brother and a cat. Loves music, play the piano, read and Disney</p>
+    
+    <div class="flexbox-container-bio">
+        <div class="bio">
+            <!-- Biography -->
+            <img class="profileImg" src="cat profile.jpg" alt="cat">
+            <p>Adelle currrently lives in California, she is studying Software Engineer and is her first Internship at Meta!. 
+                She has a younger brother and a cat. Loves music, play the piano, read and Disney</p>
+        </div>
     </div>
+    
+    <div class="flexbox-container-portfolio">
+        <!-- Portfolio -->
+        <div class="portfolio">
+            
+            <!-- Project 1 -->
+            <div class="project">
+                <img class="projectImg" src="project1.jpg" alt="project1">
+                <span>Project 1 Name</span>
+                <span>Short description</span>
+                <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+            </div>
 
-    <!-- Portfolio -->
-    <div class="portfolio">
-        <!-- Project 1 -->
-        <div class="project">
-            <img class="projectImg" src="project1.jpg" alt="project1">
-            <span>Project 1 Name</span>
-            <span>Short description</span>
-            <!-- Optional: Button -->
+            <!-- Project 2 -->
+            <div class="project">
+                <img class="projectImg" src="project1.jpg" alt="project1">
+                <span>Project 2 Name</span>
+                <span>Short description</span>
+                <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project">
+                <img class="projectImg" src="project1.jpg" alt="project1">
+                <span>Project 3 Name</span>
+                <span>Short description</span>
+                <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+            </div>
+
         </div>
 
-        <!-- Project 2 -->
-        <div class="project">
-            <img class="projectImg" src="project1.jpg" alt="project1">
-            <span>Project 2 Name</span>
-            <span>Short description</span>
-            <!-- Optional: Button -->
-        </div>
-
-        <!-- Project 3 -->
-        <div class="project">
-            <img class="projectImg" src="project1.jpg" alt="project1">
-            <span>Project 3 Name</span>
-            <span>Short description</span>
-            <!-- Optional: Button -->
-        </div>
-
     </div>
+
+    
 
 
     <script src="script.js"></script>

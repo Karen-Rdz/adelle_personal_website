@@ -18,6 +18,17 @@ h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+p {
+    font-size: 18px;
+}
+
+button {
+    background-color: lavender;
+    padding: 3px;
+    border-width: 1px;
+    border-color: blueviolet;
+}
+
 .profileImg {
     height: 100px;
     width: 100px;
@@ -45,6 +56,8 @@ h2 {
 
 .portfolio{
     padding-left: 30px;
+    padding-right: 30px;
+    
 }
 
 .project{
@@ -55,4 +68,19 @@ h2 {
     border-style: double;
     display: inline-block;
     padding: 10px;
+}
+
+.flexbox-container-header{
+    display: flex;
+}
+
+.flexbox-container-bio{
+    display: flex;
+}
+
+.flexbox-container-portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
